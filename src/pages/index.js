@@ -17,7 +17,7 @@ export default function Home() {
       className={`${geistSans.className} h-screen flex justify-center items-center ${geistMono.className} font-sans `}
     >
       <div className="text-center">
-        <h1 className="text-6xl">Deploy on Vercel</h1>
+        <h1 className="text-6xl">🚀 Deploy on Vercel 🚀</h1>
         <p className="mt-5">-With CraftCode</p>
       </div>
     </div>
