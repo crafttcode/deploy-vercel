@@ -13,8 +13,13 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <div className="h-screen w-full flex justify-center items-center">
-      <h1 className="text-6xl">Welcome back to CraftCode 🚀🚀🚀</h1>
+    <div
+      className={`${geistSans.className} h-screen flex justify-center items-center ${geistMono.className} font-sans `}
+    >
+      <div className="text-center">
+        <h1 className="text-6xl">Deploy on Vercel</h1>
+        <p className="mt-5">-With CraftCode</p>
+      </div>
     </div>
   );
 }
